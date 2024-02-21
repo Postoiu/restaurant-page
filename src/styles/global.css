@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #4e4e61;
+    font-family: 'Nunito', sans-serif;
+}
+
+header {
+    height: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+}
+
+button {
+    background-color: #f5e9e9;
+    height: 50px;
+
+    font-family: inherit;
+    font-size: 24px;
+    padding: 0 64px;
+    border: none;
+    border-left: 1px solid gray;
+    /* border-radius: 50px; */
+    box-shadow: 7px 7px 9px -4px rgba(0, 0, 0, 0.7);
+    cursor: pointer;
+
+    transition: translate 0.5s ease-out;
+}
+
+button:hover,
+button.active {
+    transform: scale(1.05);
+}
+
+button.active {
+    translate: 0 11px;
+}
+
+#content {
+    height: 100vh;
+    background: url('../images/coffee-shop.jpg') no-repeat center;
+    background-size: cover;
+}

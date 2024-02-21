@@ -1,0 +1,32 @@
+[
+    {
+        "name": "Espresso",
+        "price": "$2.99",
+        "image": "espresso.jpg"
+    },
+    {
+        "name": "Espresso Doppio",
+        "price": "$3.99",
+        "image": "espresso-doppio.jpg"
+    },
+    {
+        "name": "Americano",
+        "price": "$4.99",
+        "image": "americano.jpg"
+    },
+    {
+        "name": "Capuchino",
+        "price": "$5.99",
+        "image": "capuchino.jpg"
+    },
+    {
+        "name": "Latte Machiatto",
+        "price": "$6.99",
+        "image": "latte-2.jpg"
+    },
+    {
+        "name": "Frappe",
+        "price": "$7.99",
+        "image": "frappe.jpg"
+    }
+]

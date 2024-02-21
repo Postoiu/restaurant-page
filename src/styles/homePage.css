@@ -1,0 +1,31 @@
+#content {
+    position: relative;
+
+    text-align: center;
+    padding-top: 128px;
+}
+
+.heading {
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #f5e9e9;
+
+    font-size: 84px;
+}
+
+.description {
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #f5e9e9;
+    letter-spacing: 1px;
+    line-height: 24px;
+
+    position: absolute;
+    width: 600px;
+
+    top: 50%;
+    left: 50%;
+
+    transform: translate(-50%, -50%);
+
+    border-radius: 20px;
+    padding: 16px;
+}
